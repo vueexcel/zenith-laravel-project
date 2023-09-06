@@ -47,7 +47,6 @@ class exportAllReport extends Command
      */
     public function handle()
     {
-        dd('shshs');
         $year = date('Y');
         $start_date = $year."-01-01";
         $end_date = $year."-12-31";
